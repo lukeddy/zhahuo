@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'iconfont';
+  /* project id 1203465 */
+  src: url('http://at.alicdn.com/t/font_1203465_i8jsjhg4ow.eot');
+  src: url('http://at.alicdn.com/t/font_1203465_i8jsjhg4ow.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_1203465_i8jsjhg4ow.woff2') format('woff2'),
+    url('http://at.alicdn.com/t/font_1203465_i8jsjhg4ow.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_1203465_i8jsjhg4ow.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_1203465_i8jsjhg4ow.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ededed;
+  font-size: 16px;
+  color: #666;
+  line-height: 1.15;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+  color: #5079d9;
+  cursor: pointer;
+  transition: all .15s ease-out;
+  text-decoration: none;
+}
+ul, ol, li {
+  list-style-type: none;
+  list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: 400;
+}

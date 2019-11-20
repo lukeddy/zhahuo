@@ -1,0 +1,17 @@
+#端口号
+server:
+  port: 10086
+#本地服务名
+spring:
+  application:
+    name: zhahuo-register-service
+#eureka配置
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka/
+  server:
+    enable-self-preservation: false #关闭自我保护
+    enable-replicated-request-compression: false #每隔五秒进行一次服务列表清理

@@ -1,0 +1,60 @@
+#服务地址
+server:
+  port: 10010
+#本地服务名
+spring:
+  application:
+    name: zhahuo-gateway-service
+#  rabbitmq:
+#    host: 101.37.15.59
+#    username: ms
+#    password: 123456
+#    virtual-host: /ms
+#eureka配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true
+    ip-address: localhost
+    instance-id: ${spring.application.name}:${server.port}
+
+#网关配置
+zuul:
+  prefix: /api #路由前缀
+  retryable: true
+  routes:
+    zhahuo-auth-server: /auth/** #权限服务
+    zhahuo-user-server: /user/** #用户服务
+    zhahuo-product-server: /product/** #商品服务
+    zhahuo-item-server: /item/** #商品展示
+    zhahuo-order-server: /order/** #订单服务
+    zhahuo-cart-server: /cart/** #购物车服务
+    zhahuo-search-server: /search/** #检索服务
+#ribbon 负载均衡
+ribbon:
+  ConnectTimeout: 250 #连接超时时间
+  ReadTimeout: 2000 #通信超时时间
+  OkToRetryOnAllOperations : true #是否对所有操作重试
+  MaxAutoRetriesNextServer: 1 #同一服务不同实例重试的次数
+  MaxAutoRetries: 1 #同一实例的重试次数
+
+#熔断器
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMillisecond: 10000 #熔断超时时长
+
+#JWT
+zhahuo:
+  jwt:
+    pubKeyPath: C:\Users\lishuang\jwtproperties\zhahuo\id_rsa.pub #公钥地址
+  #配置白名单
+  filter:
+    allowPaths:
+      - /api/

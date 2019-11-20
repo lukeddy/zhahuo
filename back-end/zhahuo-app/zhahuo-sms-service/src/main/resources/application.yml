@@ -1,0 +1,18 @@
+#服务地址
+server:
+  port: 8086
+#服务名称
+spring:
+  application:
+    name: zhahuo-sms-service
+  rabbitmq:
+    host: 101.37.15.59
+    username: ms
+    password: 123456
+    virtual-host: /ms
+zhahuo:
+  sms:
+    accessKeyId: LTAI1xEMaZBG6URI # 你自己的accessKeyId
+    accessKeySecret: HBHnJwok6y8m6GJi4rH2CEYeiaei1x # 你自己的AccessKeySecret
+    signName: 杂货商城 # 签名名称
+    verifyCodeTemplate: SMS_174028420 # 模板名称

@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="474f53ee-db1c-40af-a460-5d298aeeb65a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-common-service/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-eureka-service/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-gateway-service/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-sms-service/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-auth-service/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-cart-service/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-item-service/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-order-service/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-search-service/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-user-service/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-auth-service/zhahuo-auth-interface/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-auth-service/zhahuo-auth-server/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-cart-service/zhahuo-cart-interface/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-cart-service/zhahuo-cart-server/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-item-service/zhahuo-item-interface/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-item-service/zhahuo-item-server/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-interface/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-order-service/zhahuo-item-server/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-server/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-interface/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-user-service/zhahuo-user-server/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-user-service/zhahuo-user-interface/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-server/target/" />
+    <ignored path="$PROJECT_DIR$/zhahuo-management/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/java/cn/com/scitc/ManagementApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zhahuo-common-service/src/main/java/cn/com/scitc/pojo/PageResultPojo.java" />
+        <option value="$PROJECT_DIR$/zhahuo-gateway-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zhahuo-item-service/zhahuo-item-server/src/main/java/cn/com/scitc/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-server/src/main/java/cn/com/scitc/service/PageService.java" />
+        <option value="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-interface/src/main/java/cn/com/scitc/pojo/CategoryPojo.java" />
+        <option value="$PROJECT_DIR$/zhahuo-item-service/zhahuo-item-interface/src/main/java/cn/com/scitc/pojo/CategoryPojo.java" />
+        <option value="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-interface/src/main/java/cn/com/scitc/pojo/CatePojo.java" />
+        <option value="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-interface/src/main/java/cn/com/scitc/entity/ZhImage.java" />
+        <option value="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-server/src/main/java/cn/com/scitc/mapper/ZhImageMapper.java" />
+        <option value="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-server/src/main/java/cn/com/scitc/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-interface/src/main/java/cn/com/scitc/result/ProductItemResult.java" />
+        <option value="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-server/src/main/java/cn/com/scitc/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-server/src/main/java/cn/com/scitc/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-interface/src/main/java/cn/com/scitc/pojo/SearchPojo.java" />
+        <option value="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-server/src/main/java/cn/com/scitc/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-server/src/main/java/cn/com/scitc/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zhahuo-item-service/zhahuo-item-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-interface/src/main/java/cn/com/scitc/entity/ZhOrderitem.java" />
+        <option value="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-server/src/main/java/cn/com/scitc/mapper/ZhOrderMapper.java" />
+        <option value="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-server/src/main/java/cn/com/scitc/mapper/ZhOrderitemMapper.java" />
+        <option value="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-server/src/main/java/cn/com/scitc/OrderServerApplication.java" />
+        <option value="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-interface/src/main/java/cn/com/scitc/entity/ZhOrder.java" />
+        <option value="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zhahuo-common-service/src/main/java/cn/com/scitc/myexception/ZhahuoExceptionEnum.java" />
+        <option value="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-server/src/main/java/cn/com/scitc/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-server/src/main/java/cn/com/scitc/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-server/src/main/java/cn/com/scitc/config/AlipayConfig.java" />
+        <option value="$PROJECT_DIR$/zhahuo-auth-service/zhahuo-auth-server/src/main/java/cn/com/scitc/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/zhahuo-auth-service/zhahuo-auth-server/src/main/java/cn/com/scitc/service/AuthService.java" />
+        <option value="$PROJECT_DIR$/zhahuo-common-service/src/main/java/cn/com/scitc/utils/ResponseData.java" />
+        <option value="$PROJECT_DIR$/zhahuo-user-service/zhahuo-user-server/src/main/java/cn/com/scitc/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/zhahuo-user-service/zhahuo-user-server/src/main/java/cn/com/scitc/service/UserService.java" />
+        <option value="$PROJECT_DIR$/zhahuo-cart-service/zhahuo-cart-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/zhahuo-cart-service/zhahuo-cart-server/src/main/java/cn/com/scitc/CartServerApplication.java" />
+        <option value="$PROJECT_DIR$/zhahuo-cart-service/zhahuo-cart-server/src/main/java/cn/com/scitc/mapper/ZhCartMapper.java" />
+        <option value="$PROJECT_DIR$/zhahuo-cart-service/zhahuo-cart-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zhahuo-cart-service/zhahuo-cart-interface/src/main/java/cn/com/scitc/entity/ZhCart.java" />
+        <option value="$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-interface/src/main/java/cn/com/scitc/pojo/OrderPojo.java" />
+        <option value="$PROJECT_DIR$/zhahuo-cart-service/zhahuo-cart-server/src/main/java/cn/com/scitc/service/CartService.java" />
+        <option value="$PROJECT_DIR$/zhahuo-cart-service/zhahuo-cart-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zhahuo-cart-service/zhahuo-cart-server/src/main/java/cn/com/scitc/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/zhahuo-management/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zhahuo-management/src/main/java/cn/com/scitc/ManagementApplication.java" />
+        <option value="$PROJECT_DIR$/zhahuo-management/pom.xml" />
+        <option value="$PROJECT_DIR$/zhahuo-management/src/main/java/cn/com/scitc/service/ManagementService.java" />
+        <option value="$PROJECT_DIR$/zhahuo-management/src/main/java/cn/com/scitc/controller/ManagementController.java" />
+        <option value="$PROJECT_DIR$/zhahuo-gateway-service/src/main/java/cn/com/scitc/config/GlobalCorsConfig.java" />
+        <option value="$PROJECT_DIR$/zhahuo-management/src/main/java/cn/com/scitc/config/GlobalCorsConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zhahuo-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zhahuo-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="200" />
+    <option name="width" value="1760" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zhahuo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573879878097" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\zhahuo-app\zhahuo-management\src\main\resources\static\ItemImage" />
+      <recent name="E:\workspace\zhahuo-app\zhahuo-management\src\main\resources\static\images" />
+      <recent name="E:\workspace\zhahuo-app\zhahuo-gateway-service\src\main\java\cn\com\scitc\config" />
+      <recent name="E:\workspace\zhahuo-app\zhahuo-auth-service\zhahuo-auth-interface\src\main\java\utils" />
+      <recent name="E:\workspace\zhahuo-app\zhahuo-management\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.com.scitc.config" />
+      <recent name="cn.com.scitc.mapper" />
+      <recent name="cn.com.scitc.page" />
+      <recent name="cn.com.scitc.pojo" />
+      <recent name="cn.com.scitc.filter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\zhahuo-app\zhahuo-management\src\main\resources\static\ItemImage" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.2568306" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zhahuo-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.scitc.AuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zhahuo-cart-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.scitc.CartServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zhahuo-eureka-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.scitc.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zhahuo-gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.scitc.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zhahuo-item-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.scitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.scitc.ItemServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zhahuo-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.scitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.scitc.ManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zhahuo-order-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.scitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.scitc.OrderServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zhahuo-search-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.scitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.scitc.SearchServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zhahuo-user-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.scitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.scitc.UserServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZhahuoSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zhahuo-sms-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.scitc.ZhahuoSmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AuthServerApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.ZhahuoSmsApplication" />
+      <item itemvalue="Spring Boot.CartServerApplication" />
+      <item itemvalue="Spring Boot.ItemServerApplication" />
+      <item itemvalue="Spring Boot.OrderServerApplication" />
+      <item itemvalue="Spring Boot.ManagementApplication" />
+      <item itemvalue="Spring Boot.SearchServerApplication" />
+      <item itemvalue="Spring Boot.UserServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserServerApplication" />
+        <item itemvalue="Spring Boot.SearchServerApplication" />
+        <item itemvalue="Spring Boot.ManagementApplication" />
+        <item itemvalue="Spring Boot.OrderServerApplication" />
+        <item itemvalue="Spring Boot.ItemServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="474f53ee-db1c-40af-a460-5d298aeeb65a" name="Default Changelist" comment="" />
+      <created>1571850009558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571850009558</updated>
+      <workItem from="1571850013438" duration="2926000" />
+      <workItem from="1571901224499" duration="2999000" />
+      <workItem from="1571904606529" duration="12775000" />
+      <workItem from="1571991719262" duration="20817000" />
+      <workItem from="1572081682491" duration="6624000" />
+      <workItem from="1572159580126" duration="1753000" />
+      <workItem from="1572233446374" duration="27996000" />
+      <workItem from="1572395085526" duration="4455000" />
+      <workItem from="1572480891007" duration="12607000" />
+      <workItem from="1572567623222" duration="8946000" />
+      <workItem from="1572782622824" duration="4848000" />
+      <workItem from="1573227912300" duration="218000" />
+      <workItem from="1573283695030" duration="19282000" />
+      <workItem from="1573434768035" duration="21459000" />
+      <workItem from="1573520966437" duration="1929000" />
+      <workItem from="1573553828050" duration="4456000" />
+      <workItem from="1573696456868" duration="4663000" />
+      <workItem from="1573826359429" duration="8653000" />
+      <workItem from="1573865025924" duration="2906000" />
+      <workItem from="1573877832273" duration="2028000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="172340000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29021448" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5944363" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Tasks" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5033512" side_tool="true" weight="0.36749634" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329429" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.21083455" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4966488" weight="0.51537335" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.18766756" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zhahuo-item-service/zhahuo-item-server/src/main/java/cn/com/scitc/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-auth-service/zhahuo-auth-server/src/main/java/cn/com/scitc/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-user-service/zhahuo-user-server/src/main/java/cn/com/scitc/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-server/src/main/java/cn/com/scitc/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-gateway-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-interface/src/main/java/cn/com/scitc/pojo/OrderPojo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+          <folding>
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-cart-service/zhahuo-cart-server/src/main/java/cn/com/scitc/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/1cc08c4ac4eea189a4b3a6078e842f9e.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/2bbaad7e726fff214bc72f2cf1029f44.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/4a7bd19196e17cdae4af3d3a13d6409b.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/8f299c1bca86d5eee215b78af86adf40.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/9b8e72ee8dd2e24e3116016af704747e.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/22c95761b040112ee4ff6e4653691ae6.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/50ad206f8df9439a4372a055e447d28b.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/73c78ebe557c812f831171b8e1c673e5.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/194ce49c17938aeb2e15973cc4533ed5.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/880cc5dbe0313f5d2e96ba9975c13af3.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/04820845bdbfc7030e7d91fff2a87e16.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/77031389dd6712d55a55b8d0aa2f9196.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/d4cf12be9575eb53eb54d3b8ae6c894c.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/e07a294e990213a6f5f5b23bb12d5468.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/ItemImage/e2144f0b80beb52ead734974c7fffb34.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/images/57486aa82f39bdc4fe0d6fffe7403637.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/images/e2144f0b80beb52ead734974c7fffb34.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/images/50ad206f8df9439a4372a055e447d28b.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/static/images/005c65324724692f7c9ba2fc7738db13.webp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-item-service/zhahuo-item-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="74" column="21" selection-start-line="20" selection-start-column="8" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-item-service/zhahuo-item-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-item-service/zhahuo-item-server/src/main/java/cn/com/scitc/ItemServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-user-service/zhahuo-user-server/src/main/java/cn/com/scitc/mapper/ZhUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/java/cn/com/scitc/mapper/ZhUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-server/src/main/java/cn/com/scitc/mapper/ZhProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/java/cn/com/scitc/mapper/ZhProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-server/src/main/java/cn/com/scitc/mapper/ZhOrderitemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-order-service/zhahuo-order-server/src/main/java/cn/com/scitc/mapper/ZhOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/java/cn/com/scitc/mapper/ZhOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/java/cn/com/scitc/service/ManagementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-server/src/main/java/cn/com/scitc/service/PageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-search-service/zhahuo-search-server/src/main/java/cn/com/scitc/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/java/cn/com/scitc/controller/ManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-gateway-service/src/main/java/cn/com/scitc/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-gateway-service/src/main/java/cn/com/scitc/config/GlobalCorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-gateway-service/src/main/java/cn/com/scitc/config/JwtProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-gateway-service/src/main/java/cn/com/scitc/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-gateway-service/src/main/java/cn/com/scitc/config/FilterProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-gateway-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-common-service/src/main/java/cn/com/scitc/pojo/PageResultPojo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/java/cn/com/scitc/config/GlobalCorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhahuo-management/src/main/java/cn/com/scitc/ManagementApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>zhahuo-eureka-service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

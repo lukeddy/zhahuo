@@ -1,0 +1,222 @@
+.el-main {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.J-home {
+  width: 100%;
+  height: 650px;
+  background: #5079d9;
+
+  .J-home-box {
+    background-image: url(~@/assets/images/user/loginbg.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    height: 650px;
+
+    .h-content::before {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .h-content::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .h-content {
+      width: 1000px;
+      margin: 0 auto;
+      padding: 40px 0px 0px 40px;
+      min-height: 550px;
+
+      .c-register {
+        width: 360px;
+        border-radius: 2px;
+        background-color: #fff;
+        float: right;
+
+        .c-register-head {
+          padding-right: 30px;
+          padding-left: 30px;
+          height: 50px;
+          line-height: 50px;
+          border-bottom: 1px solid #e0e0e0;
+          overflow: hidden;
+
+          .c-register-login {
+            float: right;
+            font-size: 14px;
+
+            .c-register-text {
+              display: inline-block;
+            }
+
+            .c-register-a {
+              color: #5079d9;
+            }
+          }
+
+          .c-register-title {
+            font-size: 18px;
+            color: #666;
+            line-height: 50px;
+            font-weight: 700;
+          }
+        }
+
+        .c-register-body {
+          padding: 30px;
+
+          .reg-form-wrapper {
+            text-align: left;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+.c-register-form {
+  .control-group::after {
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  .control-group {
+
+    .form-item-group {
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      .ui-position-txt{
+        vertical-align: middle;
+        font-size: 12px;
+        display: inline-block;
+        width: 270px;
+        line-height: 1.5;
+        cursor: default;
+        
+      }
+      .ui-checkbox {
+            display: inline-block;
+            height: 20px;
+            width:20px;
+            cursor: pointer;
+            .checkbox{
+              color: green !important;
+            }
+        span {
+            position: absolute;
+            top:0;
+            left:0;
+            width:20px;
+        }
+      }
+
+      .adjust-reg-code {
+        padding: 6px 9px 6px 40px;
+        height: 32px;
+        line-height: 32px;
+        width: 106px;
+        margin-right: 10px;
+        outline: 0;
+        border-radius: 3px;
+        background: #fff;
+        color: #333;
+        border: 1px solid #b2b2b2;
+      }
+
+      .get-code {
+        display: inline-block;
+        border-radius: 3px;
+        text-align: center;
+        padding: 0 12px;
+        width: 102px;
+        font-size: 14px;
+        height: 44px;
+        line-height: 44px;
+        border: 1px solid #d0d0d0;
+        color: #fff;
+        background: green;
+        cursor: pointer;
+      }
+      .send-msg-btn{
+        cursor: not-allowed !important;
+        background: #d0d0d0 !important;
+        color:#b2b2b2 !important;
+      }
+      .ui-input {
+        padding: 6px 10px 6px 40px;
+        width: 248px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 14px;
+        color: #333;
+        border: 1px solid #b2b2b2;
+        border-radius: 3px;
+        outline: 0;
+
+      }
+
+      .iconfont {
+        position: absolute;
+        top: 13px;
+        left: 11px;
+        z-index: 1;
+        width: 25px;
+        height: 20px;
+        font-size: 20px;
+      }
+    }
+
+    .form-input-tip {
+      font-size: 12px;
+      position: relative;
+      min-height: 19px;
+      max-height: 36px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-top: 2px;
+      margin-bottom: 5px;
+      line-height: 1.5;
+      display: block;
+    }
+  }
+
+  .md30 {
+    margin-bottom: 30px;
+
+    .form-item-group {
+      a {
+        font-size: 16px;
+        width: 298px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: 4px;
+        padding: 0;
+        overflow: hidden;
+        color: #fff;
+        background-color: #f10180;
+        border: 1px solid #f10180;
+        min-width: 72px;
+        border-radius: 3px;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.activPhnoe ,.activeCode ,.activePassword ,.activeRepassword{
+  border: 1px solid #c42121 !important;
+}

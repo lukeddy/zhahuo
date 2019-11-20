@@ -1,0 +1,60 @@
+.el-header {
+  height: 100px;
+  width:100%;
+  .j-background {
+    width:100%;
+    background: #fff;
+
+    .j-header {
+      position: relative;
+      z-index: 1;
+      margin: 0 auto;
+      width: 1000px;
+      height: 100px;
+      .j-login {
+        display: block;
+        float: left;
+
+        a {
+          background-image: url(~@/assets/images/user/loginlog.png);
+          background-size: 140% 100%;
+          background-position: -30px 5px;
+          width: 180px;
+          height: 100px;
+          display: inline-block;
+          vertical-align: top;
+          line-height: 500px;
+          overflow: hidden;
+        }
+      }
+
+      .j-service {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 350px;
+        height: 100px;
+
+        .j-service-list {
+          width: 350px;
+          height: 100px;
+          text-align: center;
+          line-height: 100px;
+
+          .j-service-item {
+            display: inline-block;
+            padding-left: 8px;
+            font-size: 16px;
+
+            .j-login-iconfont {
+              font-size: 20px;
+              color: #5079d9;
+              padding-right: 5px;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

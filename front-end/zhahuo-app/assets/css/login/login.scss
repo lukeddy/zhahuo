@@ -1,0 +1,345 @@
+.el-container{
+    .el-main {
+        margin: 0;
+        padding: 0;
+        height:650px;
+        overflow: hidden;
+    }
+}
+
+
+.J-home {
+  width: 100%;
+  height: 650px;
+  background: #5079d9;
+
+  .J-home-box {
+    background-image: url(~@/assets/images/user/loginbg.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    height: 650px;
+
+    .h-content::before {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .h-content::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .h-content {
+      width: 1000px;
+      margin: 0 auto;
+      padding: 90px 20px;
+      min-height: 550px;
+
+      .h-login-panal {
+        width: 360px;
+        border-radius: 2px;
+        background-color: #fff;
+        float: right;
+
+        .h-login-body {
+          width: 360px;
+
+          .login-body-tab {
+            width: 360px;
+
+            .h-login-nav {
+              border-bottom: 1px solid #e0e0e0;
+
+              .h-tab-nav {
+                display: inline-block;
+                width: 177px;
+                vertical-align: top;
+                text-align: center;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 50px;
+                overflow: hidden;
+              }
+
+              .tab-nav-item-qr::after {
+                content: "";
+                font-size: 0;
+                line-height: 0;
+                position: absolute;
+                top: 15px;
+                right: 0;
+                z-index: 1;
+                width: 1px;
+                height: 20px;
+                background: #ccc;
+              }
+
+              .tab-nav-item-qr {
+                position: relative;
+              }
+            }
+
+            .h-login-context {
+
+              .h-tab-panal {
+                .h-login-form {
+                  .h-login-form-list {
+                    margin: 0 auto;
+                    width: 300px;
+
+                    .login-form-top {
+                      width: 300px;
+                      height: 40px;
+                    }
+
+                    .h-form-text {
+                      .form-text-user {
+                        display: inline-block;
+                        vertical-align: top;
+                        clear: both;
+                        position: relative;
+                        background: #fff;
+                        box-shadow: 0 3px 5px -4px rgba(0, 0, 0, .4) inset, -1px 0 3px -2px rgba(0, 0, 0, .1) inset;
+                        border-radius: 6px;
+                        font-size: 18px;
+                        height: 37px;
+                        line-height: 37px;
+                        opacity: 1;
+                        border: 1px solid #ccc;
+
+                        .user-iconfont {
+                          position: absolute;
+                          font-size: 20px;
+                          top: 1px;
+                          left: 11px;
+                          z-index: 1;
+                          width: 20px;
+                          height: 20px;
+                        }
+
+                        .j-username {
+                          padding-left: 40px;
+                          width: 248px;
+                          height: 32px;
+                          line-height: 32px;
+                          outline: none;
+                          border: none;
+                          border-radius: 6px;
+                        }
+                      }
+
+                      .form-text-tis {
+                        font-size: 12px;
+                        color: #666;
+                        position: relative;
+                        min-height: 19px;
+                        max-height: 36px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        margin-top: 2px;
+                        margin-bottom: 5px;
+                        line-height: 1.5px;
+                        display: block;
+                      }
+                    }
+
+                    .h-form-pwd {
+                      .form-pwd-user {
+                        position: relative;
+                        display: inline-block;
+                        vertical-align: top;
+                        clear: both;
+                        background: #fff;
+                        box-shadow: 0 3px 5px -4px rgba(0, 0, 0, .4) inset, -1px 0 3px -2px rgba(0, 0, 0, .1) inset;
+                        border-radius: 6px;
+                        font-size: 18px;
+                        height: 37px;
+                        line-height: 35px;
+                        opacity: 1;
+                        border: 1px solid #ccc;
+
+                        .key-iconfont {
+                          position: absolute;
+                          font-size: 20px;
+                          top: 3px;
+                          left: 9px;
+                          z-index: 1;
+                          width: 20px;
+                          line-height: 32px;
+                          height: 32px;
+                        }
+
+                        .j-password {
+                          padding-left: 40px;
+                          width: 248px;
+                          height: 32px;
+                          line-height: 32px;
+                          outline: none;
+                          border: none;
+                          border-radius: 6px;
+                        }
+                      }
+
+                      .form-pwd-tis {
+                        font-size: 12px;
+                        color: #666;
+                        position: relative;
+                        min-height: 19px;
+                        max-height: 36px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        margin-top: 2px;
+                        margin-bottom: 5px;
+                        line-height: 1.5px;
+                        display: block;
+                      }
+                    }
+
+                    .h-form-rem {
+                      position: relative;
+                      height: 40px;
+
+                      .form-auto-login {
+                        color: #999;
+                        float: left;
+                        font-size: 12px;
+                        cursor: pointer;
+                        margin-left: 20px;
+                        text-align: center;
+
+                        .remenber-iconfont {
+                          position: absolute;
+                          top: -2px;
+                          left: -2px;
+                          float: left;
+                          height: 20px;
+                          width: 20px;
+                        }
+                      }
+
+                      .form-other-method {
+                        float: right;
+                        width: 130px;
+                        height: 20px;
+                        font-size: 12px;
+
+                        .method-iconfont {
+                          font-size: 12px;
+                          opacity: 0.2;
+                        }
+                      }
+                    }
+
+                    .h-form-btn {
+                      .submit-btn {
+                        display: inline-block;
+                        border-radius: 3px;
+                        text-decoration: none;
+                        text-align: center;
+                        color: #fff;
+                        cursor: pointer;
+                        outline: 0;
+                        line-height: 44px;
+                        padding: 0;
+                        overflow: hidden;
+                        height: 46px;
+                        width: 300px;
+                        margin-top: 4px;
+                        background-color: #5079d9;
+                        border: 1px solid #5079d9;
+                        font-size: 18px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .h-login-foot {
+          width: 300px;
+          margin: 0 30px;
+
+          .h-login-third {
+            margin: 0 auto;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            position: relative;
+            width: 300px;
+            z-index: 1;
+            padding-top: 30px;
+            padding-bottom: 15px;
+            border-top: 1px solid #d9d9d9;
+            text-align: center;
+            font-size: 14px;
+            box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+
+            .h-login-title {
+              margin-left: 0;
+              padding-top: 5px;
+              font-size: 100%;
+              cursor: default;
+              color: #7c6d6d;
+              font-weight: 700;
+              width: auto;
+              line-height: 17px;
+              float: left;
+            }
+
+            ul::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+
+            ul {
+              .other-login-li {
+                float: left;
+                margin-left: 8px;
+                margin-right: 5px;
+
+                .other-login-md1 {
+                  color: #00d20d;
+                  font-size: 25px;
+                }
+
+                .other-login-md2 {
+                  color: #d32f2f;
+                  font-size: 25px;
+                }
+
+                .other-login-md3 {
+                  color: #0ae;
+                  font-size: 25px;
+                }
+
+                .other-login-md4 {
+                  color: #0288d1;
+                  font-size: 25px;
+                }
+              }
+            }
+
+            .h-more-foot {
+              position: absolute;
+              top: 36px;
+              right: 0;
+              color: #999;
+              font-size: 12px;
+              line-height: 17px;
+
+              .iconfont {
+                font-size: 14px;
+                line-height: 17px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

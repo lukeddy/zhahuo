@@ -1,0 +1,27 @@
+#服务地址
+server:
+  port: 8087
+spring:
+  application:
+    name: zhahuo-auth-server
+
+#eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    registry-fetch-interval-seconds: 10
+  instance:
+    lease-expiration-duration-in-seconds: 10 #十秒不发送就过期
+    lease-renewal-interval-in-seconds: 5 #每隔五秒发送一次心跳
+    prefer-ip-address: true
+    ip-address: localhost
+    instance-id: ${spring.application.name}:${server.port}
+
+ms:
+  jwt:
+    secret: 45jhftyfydrfd # 登录校验的密钥
+    pubKeyPath: C:\Users\lishuang\jwtproperties\zhahuo\id_rsa.pub # 公钥地址
+    priKeyPath: C:\Users\lishuang\jwtproperties\zhahuo\id_rsa.pri # 私钥地址
+    expire: 30 # 过期时间,单位分钟
+    cookieName: MS_TOKEN  #cookie名

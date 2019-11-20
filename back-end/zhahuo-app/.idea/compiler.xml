@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zhahuo-auth-interface" />
+        <module name="zhahuo-auth-server" />
+        <module name="zhahuo-cart-interface" />
+        <module name="zhahuo-cart-server" />
+        <module name="zhahuo-common-service" />
+        <module name="zhahuo-eureka-service" />
+        <module name="zhahuo-gateway-service" />
+        <module name="zhahuo-item-interface" />
+        <module name="zhahuo-item-server" />
+        <module name="zhahuo-management" />
+        <module name="zhahuo-order-interface" />
+        <module name="zhahuo-order-server" />
+        <module name="zhahuo-search-interface" />
+        <module name="zhahuo-search-server" />
+        <module name="zhahuo-sms-service" />
+        <module name="zhahuo-user-interface" />
+        <module name="zhahuo-user-server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zhahuo-auth-interface" options="-parameters" />
+      <module name="zhahuo-auth-server" options="-parameters" />
+      <module name="zhahuo-auth-service" options="-parameters" />
+      <module name="zhahuo-cart-interface" options="-parameters" />
+      <module name="zhahuo-cart-server" options="-parameters" />
+      <module name="zhahuo-cart-service" options="-parameters" />
+      <module name="zhahuo-common-service" options="-parameters" />
+      <module name="zhahuo-eureka-service" options="-parameters" />
+      <module name="zhahuo-gateway-service" options="-parameters" />
+      <module name="zhahuo-item-interface" options="-parameters" />
+      <module name="zhahuo-item-server" options="-parameters" />
+      <module name="zhahuo-item-service" options="-parameters" />
+      <module name="zhahuo-management" options="-parameters" />
+      <module name="zhahuo-order-interface" options="-parameters" />
+      <module name="zhahuo-order-server" options="-parameters" />
+      <module name="zhahuo-order-service" options="-parameters" />
+      <module name="zhahuo-search-interface" options="-parameters" />
+      <module name="zhahuo-search-server" options="-parameters" />
+      <module name="zhahuo-search-service" options="-parameters" />
+      <module name="zhahuo-sms-service" options="-parameters" />
+      <module name="zhahuo-user-interface" options="-parameters" />
+      <module name="zhahuo-user-server" options="-parameters" />
+      <module name="zhahuo-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

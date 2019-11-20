@@ -1,0 +1,168 @@
+.el-col-list {
+  height: 40px;
+  position: relative;
+}
+
+.nav-class-box {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  background: #5079d9;
+  &:hover .nav .nav-class-list {
+    display: block;
+  }
+  .nav {
+    // &:hover .nav-class-list{
+    //     display: block;
+    // }
+    .nav-dt {
+      
+      a {
+        display: inline-block;
+        width: 150px;
+        height: 40px;
+        font-weight: 700;
+        background: #5079d9;
+        color: #fff;
+
+      }
+    }
+
+    .nav-class-list {
+      position: absolute;
+      display: none;
+      z-index: 11;
+      background: #5079d9;
+      padding-top: 12px;
+      transition: all 0.2s linear;
+      .nav-category {
+        height: 495px;
+        padding-top: 11px;
+        transition: all 0.2s linear;
+        box-shadow: -2px 2px 3px rgba(0, 0, 0, .1);
+        padding: 0 0 1px;
+        overflow: hidden;
+        width: 150px;
+        .nav-class-item {
+          font-weight: 400;
+          display: block;
+          text-align: center;
+          overflow: hidden;
+          height: 45px;
+          line-height: 45px;
+          float: none;
+          &:hover .nav .nav-class-list{
+            display: block;
+          }
+         &:hover{
+            background: #FFF;
+            font-weight: 400;
+         }
+         &:hover a{
+            color:#5079d9;
+            font-weight: 400;
+         }
+          a {
+            display: inline;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  .detail {
+    position: absolute;
+    display: block;
+    top: 52px;
+    left: 150px;
+    z-index: 11;
+    height: 495px;
+      .nav-pop-list{
+        width: 1071px;
+        background: #fff;
+        height: 495px;
+        box-shadow: 2px 2px 3px 0 rgba(0,0,0,.1);
+          .nav-pop-item{
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+              .nav-pop-col1{
+                width: 737px;
+                float: left;
+                padding: 4px 0px 0px 36px;
+                height: 491px;
+                overflow: hidden;
+                background: #fff;
+                  .nav-pop-detail{
+                    border-right: 1px solid #e1e1e1;
+                    overflow: hidden;
+                    height: 491px;
+                    .nav-panal-item{
+                        width: 100%;
+                        .detail-h3{
+                            position: relative;
+                            height: 36px;
+                            border-bottom: 1px solid #ccc;
+                            line-height: 36px;
+                            font-size: 16px;
+                            font-weight: 700;
+                            color: #3b3c3f;
+                            .h3-product-type{
+                                float: left;
+                            }
+                            .detail-more-a{
+                                font-size: 12px;
+                                right: 6px;
+                                position: absolute;
+                                font-weight: 400;
+                                top: 0;
+                                .iconfont{
+                                    font-size:12px;
+                                }
+                            }
+                        }
+                        .datail-p{
+                            height: 104px;
+                            overflow: hidden;
+                            padding-bottom: 20px;
+                            line-height: 26px;
+                            a{
+                                display: block;
+                                margin-right: 12px;
+                                white-space: nowrap;
+                                color: #969696;
+                                font-size: 14px;
+                                font-weight: 400;
+                                float: left;
+                            }
+                            a:hover{
+                              color:#5079d9;
+                            }
+                        }
+                    }
+                  }
+              }
+              .nav-pop-col2{
+                width: 262px;
+                float: right;
+                height: 491px;
+                overflow: hidden;
+                opacity: 0.1;
+                  .nav-pop-brand{
+                    width: 262px;
+                    height: 491px;
+                    overflow: hidden;
+                  }
+              }
+          }
+      }
+  }
+}

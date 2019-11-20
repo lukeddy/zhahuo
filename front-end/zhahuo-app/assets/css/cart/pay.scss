@@ -1,0 +1,119 @@
+.product-fix-bar {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fafafa;
+  border-top: 1px solid #e3e3e3;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, .04);
+  z-index: 25;
+
+  .fix-bar-wrapper {
+    width: 1220px;
+    line-height: 20px;
+    margin: 12px auto 0;
+
+    .bar-text {
+      color: #707070;
+      font-size: 12px;
+      font-weight: 500;
+      margin-right: 20px;
+      float: left;
+    }
+
+    .bar-device-info {
+      position: relative;
+      margin-right: 20px;
+      font-size: 14px;
+      float: left;
+
+      .clearfix::after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+      }
+
+      .clearfix {
+        font-size: 100%;
+        font-weight: 400;
+        height: 20px;
+
+        span {
+          color: #707070;
+          float: left;
+          font-weight: 700;
+          font-size: 14px;
+          height: 20px;
+          line-height: 20px;
+          padding: 0;
+          border: none;
+        }
+      }
+
+      h2 {
+        font-size: 12px;
+        color: #9d9d9d;
+      }
+    }
+
+    .bar-btn {
+      width: 118px;
+      height: 38px;
+      line-height: 38px;
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+      margin-left: 10px;
+      border-radius: 6px;
+      background-color: #6383c6;
+      background-image: linear-gradient(#6383c6, #4262af);
+      margin-top: -2px;
+      padding: 1px;
+      float: right;
+    }
+
+    .white-btn {
+      height: 40px;
+      padding: 0;
+      border: 1px solid #dedede;
+      background-color: #f8f8f8;
+      background-image: linear-gradient(#fbfbfb, #f5f5f5);
+    }
+
+    .no-discount-price {
+      float: right;
+      margin-right: 20px;
+      text-align: right;
+
+      .bar-price {
+        position: relative;
+        font-size: 20px;
+        font-weight: 700;
+        color: #d44d44;
+        line-height: 40px;
+
+        .price-tip {
+          font-style: normal;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
