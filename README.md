@@ -10,6 +10,13 @@
 
 # 整体效果
 
+![主页面](https://github.com/fredomli/zhahuo/blob/master/images/20191112184226.png) 
+
+![商品分类展示](https://github.com/fredomli/zhahuo/blob/master/images/20191112184253.png) 
+
+![商品详情页面](https://github.com/fredomli/zhahuo/blob/master/images/20191112184406.png) 
+
+![购物车页面](https://github.com/fredomli/zhahuo/blob/master/images/20191112184529.png) 
 
 # 技术栈
 ## 后端技术栈
